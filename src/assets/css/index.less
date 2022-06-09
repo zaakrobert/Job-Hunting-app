@@ -1,0 +1,37 @@
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+.sticky-header {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.am-tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: inherit; // 包裹內容
+}
+
+//聊天樣式
+#chat-page .chat-me .am-list-extra {
+  flex-basis: auto; //寬度包裹內容
+}
+
+#chat-page .chat-me .am-list-content {
+  padding-right: 15px;
+  text-align: right;
+}
+
+//表情圖案放大
+.emojiResize>.slider>.slider-frame>.slider-list>.slider-slide>.am-grid-carousel-page>.am-flexbox>.am-flexbox-item>.am-grid-item-content>.am-grid-item-inner-content>.am-grid-text {
+  font-size: 24px;
+}
+.am-list-item .am-input-extra {
+  overflow: unset;
+}
